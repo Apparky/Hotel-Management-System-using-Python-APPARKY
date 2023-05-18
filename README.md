@@ -49,10 +49,6 @@ pyinstaller --onefile -w --hiddenimport=babel.numbers filename.py
 ```
 
 
---------------------------------
-
-
-
 
 -------------------
 > 
