@@ -42,6 +42,12 @@ To install `Pyinstaller` follow the given command billow.
 pip install pyinstaller
 ```
 
+We have added a `requirement.txt` file with this repo. You can also install all requirements from this file. 
+You just need to open you native terminal or any terminal and type in the following commands
+```commandline
+pip install -r requirement.txt
+```
+
 You are all set to go. Open your native terminal and run the following command to convert your `.py` script into `exe` file.
 ```commandline
 pyinstaller --onefile -w --hiddenimport=babel.numbers filename.py   
